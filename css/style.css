@@ -20,10 +20,39 @@ body{
     background-color: #1e90ff;
 }
 
+.bg-violet{
+    background-color: rgb(152, 0, 183);
+}
+
+.bg-green{
+    background-color: rgb(0, 169, 79); 
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-light-violet{
+    background-color: violet;
+}
+
+.bg-lime{
+    background-color: rgb(2, 196, 2);
+}
+
+
+
 .text-white{
     color: white;
 }
 
+.text-green{
+    color: rgb(9, 105, 9);
+}
+
+.text-red{
+    color: red;
+}
 
 /* header */
 header{
@@ -47,7 +76,6 @@ h1{
 /* main */
 .container{
     max-width: 80%;
-    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -72,5 +100,45 @@ button{
     color: rgb(160, 160, 160);
     border: 1px solid rgb(160, 160, 160);
 
+}
+
+/* body container */
+.body-container{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 25px 30px;
+}
+
+/* list  */
+ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-bottom: 6px;
+}
+
+.task{
+    height: 30px;
+    line-height: 30px;
+}
+
+.task-check{
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.label{
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 4px 10px;
 }
 
