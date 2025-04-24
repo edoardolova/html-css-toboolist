@@ -16,10 +16,20 @@ body{
     background-color: white;
 }
 
+.bg-blue{
+    background-color: #1e90ff;
+}
+
+.text-white{
+    color: white;
+}
+
+
 /* header */
 header{
     height: 70px;
     padding-left:20px;
+    margin-bottom: 30px;
 
 }
 
@@ -32,8 +42,35 @@ h1{
     font-size: 2.5em;
     font-weight: 800;
     vertical-align: middle;
-
-    
 }
 
+/* main */
+.container{
+    max-width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-container{
+    height: 50px;
+    border-bottom: 1px  solid rgb(160, 160, 160);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 15px 30px;
+}
+
+/* btn  */
+button{
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.add-section-btn{
+    color: rgb(160, 160, 160);
+    border: 1px solid rgb(160, 160, 160);
+
+}
 
